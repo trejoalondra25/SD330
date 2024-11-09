@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"> 
+        <title> Fridge App</title>
+        <link rel="stylesheet" href="fridge/style.css">
+
+    </head>
+
+    <body onload="doStartClock()">
+        
+        <div class="box">
+            <div>
+                <p id="timePar" style="font-size: 2.8em; font-family: 'Courier New', Courier, monospace;
+                    text-align: right;"> 00 : 00 : 00
+                </p>
+                <button class="Hour"  onclick="toggleTimeFormat()" id="toggleFormatBtn" style="float:left">12-24 Hour</button>
+            </div>
+
+            
+                <div class="temperatureControls" id="temperatureControls" style="display: none;">
+                    <p id="temperatureDisplay" style="font-size: 2em; font-family: 'Courier New', monospace;">Temp:75°F</p>
+                    <button onclick="toggleTempUnit()" id="toggleTempUnitBtn">Switch °F/°C</button>
+                    <button onclick="increase()" id="increaseTempBtn">Increase Temp</button>
+                    <button onclick="decrease()" id="decreaseTempBtn">Decrease Temp</button>
+                </div>
+                   
+
+                
+            
+          
+
+
+            <div class="container2">
+                <div id="imageControls" style="display: none;">
+                    <img id="home2" src="https://aboutartnouveau.wordpress.com/wp-content/uploads/2018/11/dies-irae.jpg" alt="dies-irae">
+                    <audio id="music" src="22701410_mozart-dies-irae_by_orchestralis_preview.mp3"></audio>
+                    <button onclick="play()" id="playPauseBtn">Pause</button>
+                    
+        
+                </div>
+
+            </div>
+
+            <div class="container2">
+                <div class="countingControls" style="display: none;">
+                    <p class="countTo">1:00</p>
+                </div>
+                
+            </div>
+
+
+           
+            
+            <div id="div1">
+                <button onclick="view()" id="shelfBtn" style = "float:left">Look Inside</button>
+                <button onclick="settings()" id="settingBtn" style="float:left">Current Temperature</button>
+                <button onclick="disney()" id="disneyBtn" style="float:left"> Disney</button>
+                <button onclick="browser()" id="browserBtn" style="float:left">Browser</button>
+                <button onclick="television()" id="teleBtn" style="float:left">TV</button>
+                <audio id="audio" src="static-poppy-light-107792.mp3"></audio>
+                <button onclick="Listen()" id="MusicBtn" style="float:left">Music</button>
+                <button onclick="seeWeather()" id="weatherBtn" style="float:left">Weather</button>
+                <button onclick="countDown()" id="timerBtn" style="float:left">timer</button>
+                <button onclick="toggleShoppingList()" id="shoppingBtn" style="float:left">Shopping List</button>
+
+            </div>
+            <button onclick="hideShow()" id="onoffBtn">On/Off</button>
+           
+            <img class="trans" id="home1" src="https://w0.peakpx.com/wallpaper/410/412/HD-wallpaper-plain-black-black.jpg"
+            width="100%" height="77%">
+
+            <div class="container2">
+                <div id="shoppingListControls" style="display: none;">
+                    <h3>Shopping List</h3>
+                    <ul id="shoppingList">
+                        <li>Milk</li>
+                        <li>Bread</li>
+                        <li>Eggs</li>
+                        <li>Butter</li>
+                        <li>Apples</li>
+                    </ul>
+                    
+                    <input type="text" id="newItem" placeholder="Add new item">
+                    <button onclick="addItem()">Add Item</button>
+                </div>
+            </div>
+
+            
+            
+            
+           
+
+        </div>
+        <script src="fridge/fridge.js"></script>
+
+    </body>
+
+
+
+</html>
