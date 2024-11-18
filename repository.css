@@ -1,0 +1,19 @@
+body {
+    width: 2000px;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(black-cat-7125.gif);
+    text-align: center;
+}
+
+
+p a {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(55, 3, 63), rgb(177, 105, 224), rgb(243, 234, 177));
+    color: whitesmoke;
+    padding: 4px 4px 4px 4px;
+    text-align: center;
+}
+
+footer {
+    padding-top: 20%;
+}
