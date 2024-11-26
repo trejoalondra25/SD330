@@ -1,0 +1,222 @@
+{
+    "parking_lots": [
+        {
+            "lot_1": {
+                "id": "lot_01",
+                "name": "McCann",
+                "map jpg": "mapMcann.png",
+                "location": "41.7184348785437, -73.93616039424077",
+                "comments": "mostly busy",
+                "hours_open": "24/7",
+                "ev_Charging": "no",
+                "parking_spots": {
+                    "total": "70",
+                    "spots": {
+                        "spot_1": {
+                            "available": "avilable",
+                            "Handicap": "no",
+                            "time_reserve": "not reserved",
+                            "time_filled": "not filled",
+                            "can_park": {
+                                "staff": "yes",
+                                "residents": "yes",
+                                "commuters": "yes"
+                            }
+                        },
+                        "spot_2": {
+                            "can_park": {
+                                "staff": "yes",
+                                "residents": "yes",
+                                "commuters": "yes"
+                            },
+                            "available": "reserved",
+                            "Handicap": "no",
+                            "time_reserve": "8:00",
+                            "time_filled": "8:15"
+                        },
+                        "spot_3": {
+                            "can_park": {
+                                "staff": "yes",
+                                "residents": "yes",
+                                "commuters": "yes"
+                            },
+                            "available": "filled",
+                            "Handicap": "no",
+                            "time_reserve": "not reserved",
+                            "time_filled": "11:00"
+                        },
+                        "spot_4": {
+                            "can_park": {
+                                "staff": "yes",
+                                "residents": "yes",
+                                "commuters": "yes"
+                            },
+                            "available": "filled",
+                            "Handicap": "no",
+                            "time_reserve": "not reserved",
+                            "time_filled": "11:05"
+                        },
+                        "spot_5": {
+                            "can_park": {
+                                "staff": "yes",
+                                "residents": "yes",
+                                "commuters": "yes"
+                            },
+                            "available": "reserved",
+                            "Handicap": "no",
+                            "time_reserve": "11:15",
+                            "time_filled": "11:30"
+                        },
+                        "spot_6": {
+                            "can_park": {
+                                "staff": "yes",
+                                "residents": "yes",
+                                "commuters": "yes"
+                            },
+                            "available": "available",
+                            "Handicap": "no",
+                            "time_reserve": "not reserved",
+                            "time_filled": "not filled"
+                        },
+                        "spot_7": {
+                            "can_park": {
+                                "staff": "yes",
+                                "residents": "yes",
+                                "commuters": "yes"
+                            },
+                            "available": "available",
+                            "Handicap": "no",
+                            "time_reserve": "not reserved",
+                            "time_filled": "not filled"
+                        },
+                        "spot_8": {
+                            "can_park": {
+                                "staff": "yes",
+                                "residents": "yes",
+                                "commuters": "yes"
+                            },
+                            "available": "filled",
+                            "Handicap": "no",
+                            "time_reserve": "not reserved",
+                            "time_filled": "11:32"
+                        },
+                        "spot_9": {
+                            "can_park": {
+                                "staff": "yes",
+                                "residents": "yes",
+                                "commuters": "yes"
+                            },
+                            "available": "filled",
+                            "Handicap": "no",
+                            "time_reserve": "not reserved",
+                            "time_filled": "11:32"
+                        },
+                        "spot_10": {
+                            "can_park": {
+                                "staff": "yes",
+                                "residents": "yes",
+                                "commuters": "yes"
+                            },
+                            "available": "filled",
+                            "Handicap": "yes",
+                            "time_reserve": "not reserved",
+                            "time_filled": "11:45"
+                        },
+                        "spot_11": {
+                            "can_park": {
+                                "staff": "yes",
+                                "residents": "yes",
+                                "commuters": "yes"
+                            },
+                            "available": "reserved",
+                            "Handicap": "yes",
+                            "time_reserve": "13:45",
+                            "time_filled": "14:00"
+                        },
+                        "spot_12": {
+                            "can_park": {
+                                "staff": "yes",
+                                "residents": "yes",
+                                "commuters": "yes"
+                            },
+                            "available": "reserved",
+                            "Handicap": "no",
+                            "time_reserve": "18:00",
+                            "time_filled": "18:45"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "lot_2": {
+                "id": "lot_02",
+                "name": "Foy",
+                "map jpg": "mapFoy.png",
+                "location": "41.72460895182748, -73.93422383934097",
+                "comments": "Staff parking only until 16:30",
+                "hours_open": "24/7",
+                "ev_Charging": "no",
+                "parking_spots": {
+                    "total": "55"
+                }
+            }
+        },
+        {
+            "lot_3": {
+                "id": "lot_03",
+                "name": "Dyson",
+                "map jpg": "mapDyson.png",
+                "location": "41.724983301003554, -73.93286395940011",
+                "comments": "Staff parking only until 16:30",
+                "hours_open": "24/7",
+                "ev_Charging": "no",
+                "parking_spots": {
+                    "total": "45"
+                }
+            }
+        },
+        {
+            "lot_4": {
+                "id": "lot_04",
+                "name": "Beck West",
+                "map jpg": "mapBeck_W.png",
+                "location": "41.72292779145932, -73.93110326771726",
+                "comments": "Usually open spaces",
+                "hours_open": "24/7",
+                "ev_Charging": "no",
+                "parking_spots": {
+                    "total": "35"
+                }
+            }
+        },
+        {
+            "lot_5": {
+                "id": "lot_05",
+                "name": "Beck East",
+                "map jpg": "mapBeck_E.png",
+                "location": "41.722929, -73.929967",
+                "comments": "Moderately open spaces",
+                "hours_open": "24/7",
+                "ev_Charging": "no",
+                "parking_spots": {
+                    "total": "35"
+                }
+            }
+        },
+        {
+            "lot_6": {
+                "id": "lot_06",
+                "name": "Donnelly",
+                "map jpg": "mapDonnelly.png",
+                "location": "41.72023295843634, -73.9323918521482",
+                "comments": "Staff parking only until 16:30",
+                "hours_open": "24/7",
+                "ev_Charging": "no",
+                "parking_spots": {
+                    "total": "55"
+                }
+            }
+        }
+    ]
+}
