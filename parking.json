@@ -1,7 +1,7 @@
 {
-    "parking_lots": [
+    "parkingLots": [
         {
-            "lot_1": {
+            "lot1": {
                 "id": "lot_01",
                 "name": "McCann",
                 "map jpg": "mapMcann.png",
@@ -149,7 +149,7 @@
             }
         },
         {
-            "lot_2": {
+            "lot2": {
                 "id": "lot_02",
                 "name": "Foy",
                 "map jpg": "mapFoy.png",
@@ -163,7 +163,7 @@
             }
         },
         {
-            "lot_3": {
+            "lot3": {
                 "id": "lot_03",
                 "name": "Dyson",
                 "map jpg": "mapDyson.png",
@@ -177,7 +177,7 @@
             }
         },
         {
-            "lot_4": {
+            "lot4": {
                 "id": "lot_04",
                 "name": "Beck West",
                 "map jpg": "mapBeck_W.png",
@@ -191,7 +191,7 @@
             }
         },
         {
-            "lot_5": {
+            "lot5": {
                 "id": "lot_05",
                 "name": "Beck East",
                 "map jpg": "mapBeck_E.png",
@@ -205,7 +205,7 @@
             }
         },
         {
-            "lot_6": {
+            "lot6": {
                 "id": "lot_06",
                 "name": "Donnelly",
                 "map jpg": "mapDonnelly.png",
