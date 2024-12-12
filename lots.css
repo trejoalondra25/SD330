@@ -1,0 +1,32 @@
+.lot-container {
+    max-height: 50px;
+    /* Adjust as needed */
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.lot-item {
+    padding: 8px;
+    margin: 5px 0;
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+.lot-item:hover {
+    background-color: #e5e5e5;
+}
+
+/* Styling for displaying parking lot data */
+#display1 {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.parkingLots {
+    height: 300px;
+    width: 350px;
+}

@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: white;
+}
+
+header {
+    background-color: #fab364;
+    padding: 10px;
+
+}
+
+nav {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    text-align: center;
+    align-items: center;
+    column-gap: 70px;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+hr {
+    padding: 0 auto;
+    color: aliceblue;
+}
+
+.picture {
+    background-color: #fab364;
+}
+
+.maristPic {
+    height: 85px;
+    width: 100%;
+}
+
+.bigContainer {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.paragraph {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+    font-size: xxx-large;
+}
+
+.car {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    padding-left: 47%;
+    padding-right: 55%;
+
+
+}
+
+.bigContainer2 {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    font-size: x-large;
+
+}
+
+.bigContainer2>div:nth-child(1) {
+    grid-column: span 2;
+}
+
+.bigContainer2>div:nth-child(2) {
+    grid-column: span 2;
+}
+
+.bigContainer2>div:nth-child(3) {
+    grid-column: span 2;
+}
+
+.bigContainer2>div:nth-child(4) {
+    grid-column: span 2;
+}
+
+.bigContainer2>div:nth-child(5) {
+    grid-column: span 2;
+}
+
+.bigContainer2>div:nth-child(6) {
+    grid-column: span 2;
+}
+
+.but1 {
+    font-size: large;
+    padding: 4px 4px 4px 4px;
+    background-color: #fab364;
+}

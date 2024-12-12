@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Home</title>
+       <link rel="stylesheet" href="global.css">
+   </head>
+   <body>
+       <div class="picture"><img class="maristPic" src="AW-Headers.png"></div>
+       <header>
+           <nav>
+               <h1 style="color:#E51836;">My Parking</h1>
+               <a class="menu-option" href="parking.html">Home</a>
+               <a href="lot.html">Park</a>
+               <a href="fourErr.html" data-page="profile">My Car</a>
+               <a href="fourErr.html" data-page="login" id="logIn">Logout</a>
+            </nav>
+        
+        </header>
+       <div class="bigContainer">
+            <div></div>
+            <div class="paragraph"><p>Welcome <br>To Marist <br>My Parking </p></div>
+            <div></div>
+        </div>
+        <div><img class="car" src="parking icon.jpeg"></div>
+
+        <div class="bigContainer2">
+            <div>
+                <p>Car not registered? <br>Click below to register!</p>
+            </div>
+            <div><button class="but1" id="registerBtn" onclick="nextPage()">Register</button></div>
+            <br>
+            <div><img src="Marist Map_2400x2350_Map Only_4-24.png" style="width: 150px; height: 150px;"></div>
+            <div><p>Click below to find spots available</p></div>
+        </div>
+        <div class="manyBtns">
+            <span class="lotMcCann"></span>
+            <button class="parkingLotBtn" onclick="redirectToLot('McCann Parking Lot')">McCann</button>
+            <button class="parkingLotBtn" onclick="redirectToLot('Beck West Parking Lot')">Beck</button>
+            <button class="parkingLotBtn" onclick="redirectToLot('Foy Parking Lot')">Foy</button>
+            <button class="parkingLotBtn" onclick="redirectToLot('DysonParking Lot')">Dyson</button>
+        </div>
+        <script type="module" src="global.js"></script>
+        
+   </body>
+</html>
